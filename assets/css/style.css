@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section{
+    padding: 50px 0px;
+}
+
+.container{
+    margin: 0 auto;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+header {
+    background-color: lightblue;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+
+    img {
+        height: 85px;
+        background-color: lightblue;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+        margin: 0 15px;
+        padding: 20px;
+        font-size: 30px;
+        li {
+            margin: 0 15px;
+        }
+        a {
+            color: white;
+        }
+    }
+}
