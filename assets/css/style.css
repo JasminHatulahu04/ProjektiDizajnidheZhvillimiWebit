@@ -18,7 +18,12 @@ a{
 }
 
 
-header {
+@media screen and (min-width: 800px) {
+
+    .container{
+        width: 1320px;
+    }
+    header {
     background-color: lightblue;
     color: white;
     padding: 10px 0;
@@ -50,4 +55,7 @@ nav {
             color: white;
         }
     }
+}
+
+
 }
