@@ -4,8 +4,214 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        #Drop{
+    min-height: 100vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 40px;
+    margin: 20px 0px;
+}
+
+.faq {
+    max-width: 700px;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question h3 {
+    font-size: 1.8rem;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.4rem;
+}
+
+.faq.active .answer {
+    max-height: 300px;
+}
+    </style>
 </head>
 <body>
+     <header>
+        <div class="pjesa1">
+            <nav>
+                <div>
+                    <img src="assets//img/logocanva3.png" alt="logo">
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Products.html">Products</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+      <section id="Drop">
+    <h2 class="title" style="color: white;">Q&A</h2>
+
+    <div class="faq">
+      <div class="question">
+        <h3>Çfarë është TechWorld?</h3>
+        <i class="bi bi-arrow-down-short"></i>
+      </div>
+      <div class="answer">
+        <p>
+              TechWorld është një platformë online ku mund të blini produkte teknologjike si smartphone, laptopë, PC, aksesorë dhe pajisje elektronike cilësore.
+        </p>
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>A janë produktet origjinale?</h3>
+        <i class="bi bi-arrow-down-short"></i>
+      </div>
+      <div class="answer">
+        <p>
+         Po, të gjitha produktet në TechWorld janë 100% origjinale dhe vijnë nga furnitorë të autorizuar.
+        </p>
+      </div>
+    </div>
+
+ 
+    <div class="faq">
+      <div class="question">
+        <h3>A ofroni garanci për produktet?</h3>
+        <i class="bi bi-arrow-down-short"></i>
+      </div>
+      <div class="answer">
+        <p>
+         Po, çdo produkt vjen me garanci zyrtare, zakonisht 12 muaj ose më shumë, varësisht nga prodhuesi.
+        </p>
+      </div>
+    </div>
+
+    <div class="faq">
+      <div class="question">
+        <h3>Si mund të bëj një porosi?</h3>
+        <i class="bi bi-arrow-down-short"></i>
+      </div>
+      <div class="answer">
+        <p>
+        Mjafton të:
+
+        Zgjidhni produktin,
+
+        Shtoni në shportë,
+
+        Plotësoni të dhënat,
+
+        Konfirmoni porosinë
+        </p>
+      </div>
+    </div>
+    <div class="faq">
+      <div class="question">
+        <h3>A mund ta kthej produktin?</h3>
+        <i class="bi bi-arrow-down-short"></i>
+      </div>
+      <div class="answer">
+        <p>
+            Po, keni të drejtë kthimi brenda 14 ditëve, nëse produkti është i papërdorur dhe në paketim origjinal.
+        </p>
+      </div>
+    </div>
+        <div class="faq">
+      <div class="question">
+        <h3>A mund të krijoj llogari në TechWorld?</h3>
+        <i class="bi bi-arrow-down-short"></i>
+      </div>
+      <div class="answer">
+        <p>
+            Po, duke krijuar llogari mund të:
+
+Ndiqni porositë,
+
+Ruani produktet favorite,
+
+Merrni oferta speciale
+        </p>
+      </div>
+    </div>
+
+  </section>
+
+   <footer>
+        <div class="footer">
+            <div class="kontaktet">
+            <h3>KONTAKT</h3>
+            <p>
+                Adresa: Rr. Ahmet Krasniqi “Arbëri”
+                <br>
+                10000 Prishtinë, Republika e Kosovës
+                <br>
+                Tel: +383 38 40 50 60
+                <br>
+                Web: www.TechWorld.eu
+                <br>
+                Email: info@TechWorld.eu
+        </div>
+        <div class="abonimi">
+           <div class="social">
+           <li><a href="#"><i class="media fa-brands fa-facebook"></i></a></li>
+           <li><a href="#"><i class="media fa-brands fa-instagram"></i></a></li>
+           <li><a href="#"><i class="media fa-brands fa-twitter"></i></a></li>
+           <li><a href="#"><i class="media fa-brands fa-youtube"></i></a></li>
+           </div>
+        </div>
+        </div>
+    </footer>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" ></script>
+    <script>
+
+        const faqs = document.getElementsByClassName("faq");
+        let i;
+
+        for (i = 0; i < faqs.length; i++) {
+        faqs[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+        });
+        }
+    </script>
+
+
     
 </body>
 </html>
