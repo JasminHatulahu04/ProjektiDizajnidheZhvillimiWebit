@@ -76,7 +76,7 @@ nav {
         display: flex;
         flex-wrap: wrap;
         .video-card {
-            width: 29%;
+            width: 390px;
             margin-left: 45px;
             margin-bottom: 40px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -90,8 +90,9 @@ nav {
             img {
                 width: 80%;
                  height: auto;
-                padding-left: 130px;
-                padding-top: 30px;
+                padding-left: 100px;
+                padding-top: 40px;
+                padding-right: 25px;
             }
             
                 #ipad {
@@ -120,6 +121,9 @@ nav {
                 }
                 #VR {
                     padding-top: 120px;
+                }
+                #printer {
+                    padding-top: 80px;
                 }
         }
     }
