@@ -138,7 +138,7 @@
       const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 
       if (name.split(' ').length < 2 || /\d/.test(name)) {
-        msgEl.textContent = 'Emri duhet të jetë i plotë (p.sh. Ana Krasniqi) dhe pa numra.';
+        msgEl.textContent = 'Emri duhet të jetë i plotë dhe pa numra.';
         msgEl.style.color = 'red';
         return;
       }
